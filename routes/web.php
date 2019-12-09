@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('test-page','TestScriptController@index');
+Route::post('test-page','TestScriptController@post');
